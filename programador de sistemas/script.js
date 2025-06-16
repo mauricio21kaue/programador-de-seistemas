@@ -1,4 +1,4 @@
-alert( "Ola mundo");
+//alert( "Ola mundo");
 
 // variavel guarda valores temporariamente
 // entrada dos dados
@@ -8,16 +8,16 @@ var senha="1234"
 
 // estrutura de condidição
 if (idade>17){
-alert("pode votar! "+nome);
+//alert("pode votar! "+nome);
 
 }else{
-   alert("vai embora daqui!" +nome);
+   //alert("vai embora daqui!" +nome);
 }
 if(nome=="kaue" && senha =="1234"){
-    alert("login concedido");
+    //alert("login concedido");
     
 }else{
-    alert("tente novamenente seu intruso");
+    //alert("tente novamenente seu intruso");
 }
 //laco de repetição
 contador=0;
