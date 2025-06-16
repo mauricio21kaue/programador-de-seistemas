@@ -1,0 +1,158 @@
+body{
+    /* cor de fundo*/
+     background-image: url(pesca.jpg);
+     background-size: cover;
+     /*cor de letra*/
+     color :rgb(0, 0, 0);
+     /* alinhamento de testo*/
+     text-align:center ;
+     /*trocamdo fonte*/
+     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+      Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+      margin:0px;
+      padding:0px
+}
+section {
+    /*cor dr fundo*/
+    background-color: rgba(0, 204, 255, 0.103);
+    /*largura*/
+    max-width:900px;
+    /*centralizar*/
+    margin:auto;
+    /* arendodar bordas*/
+    border-radius: 15px;
+    /* espassamento interno*/
+    padding-bottom:10px;
+    /* espassamento externo*/
+    margin-bottom: 15px;
+    /*sombra*/
+    box-shadow:0px 0px 10px grey;
+    
+}
+section:hover{
+    /* cor de fundo */
+    background-color:floralwhite;
+    /*tempo de transição*/
+    transition:1s;
+    /*tamanho de fonte - aumentar*/
+    font-size: 17px;
+}
+ul{
+    /*estilo de lista desativado*/
+    list-style: none;
+    /*alinhar texto a esquerda*/
+    text-align: left;
+}
+
+#perfil{
+    width: 200px;
+    border-radius: 15px;
+    border: 2px solid gray;
+}
+ #perfil{
+    width:200px;
+    border-radius:15px;
+    filter:grayscale(50%)
+}
+
+.links1{
+    /*decoracao de texto destivado*/
+    text-decoration:none;
+    color:rgb(255, 30, 0);
+}
+.links:hover{
+    font-weight:bold;
+    color:black;
+}
+.links2{
+    /*decoracao de texto destivado*/
+    text-decoration:none;
+    color: magenta;
+}
+.links3{
+    /*decoracao de texto destivado*/
+    text-decoration:none;
+    color:aqua;
+}
+.links4{
+    /*decoracao de texto destivado*/
+    text-decoration:none;
+    color:red;
+}
+.links5{
+    /*decoracao de texto destivado*/
+    text-decoration:none;
+    color:green;
+}
+.links6{
+    /*decoracao de texto destivado*/
+    text-decoration:none;
+    color:green;
+}
+.links1:hover,.links2:hover,.links3:hover,.links4:hover,.links5:hover,.links6:hover{
+    font-weight:bold;
+
+}
+
+.menu{
+    /*cor de fundo*/
+       background-color:rgba(128, 43, 226, 0.034);
+    /*alinhamento de texto*/
+    text-align: left;
+    /* espaço interno*/
+    padding: 10px;
+    /*cor de letra*/
+    color:white;
+    /*margem abaixo*/
+    margin-bottom:15px;
+    display:flex;
+    gap :5px;
+    justify-content:center;/*flex-start flex-end space-between 
+    space-around space-evenly*/
+    align-items:center;
+}
+.menu ul li{
+    /*colocar em linhas e lado a lado*/
+    display:inline-block;
+    padding:10px;
+
+}
+.menu ul{
+    margin:0px;
+}
+.menu ul li a{
+    color: white;
+    text-decoration:none;
+}
+footer{
+    background-color:rgba(58, 226, 43, 0.897);
+    color:rgb(63, 10, 187);
+    margin-top: 10px;
+    padding:40px;
+    box-shadow:2px 2px 10px;
+
+}
+.celular{
+    /* DESAPARECE SINAL DE MENU*/
+    display:none;
+}
+
+
+@media(max-width:1050px)
+{
+.celular{
+    display:block;
+}
+
+.menu ul {
+    display:none;
+}
+.menu ul li{
+    width:100%;
+}
+ul.mostrarMenu{
+    display:inline-block;
+    background-color: rgba(165, 42, 42, 0);
+}
+
+}
