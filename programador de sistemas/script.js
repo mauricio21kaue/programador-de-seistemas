@@ -7,7 +7,7 @@ var idade=46;
 var senha="1234"
 //registro de alteracção 
 // alterando 2
-
+//alterado no git
 
 // estrutura de condidição
 if (idade>17){
