@@ -5,7 +5,9 @@
 var nome="kaue";
 var idade=46;
 var senha="1234"
-//registro de alteracção
+//registro de alteracção 
+// alterando 2
+
 
 // estrutura de condidição
 if (idade>17){
